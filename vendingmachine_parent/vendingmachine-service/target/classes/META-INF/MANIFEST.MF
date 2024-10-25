@@ -1,0 +1,55 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 21
+Class-Path: vendingmachine-manager-0.0.1-SNAPSHOT.jar vendingmachine-dao
+ -0.0.1-SNAPSHOT.jar vendingmachine-common-0.0.1-SNAPSHOT.jar disconf-sp
+ ring-boot-starter-1.0.1.jar disconf-client-2.6.36.jar disconf-core-2.6.
+ 36.jar httpclient-4.5.1.jar httpcore-4.4.16.jar commons-logging-1.2.jar
+  zookeeper-3.3.6.jar log4j-1.2.15.jar mail-1.4.jar jline-0.9.94.jar jun
+ it-4.13.2.jar hamcrest-core-2.2.jar gson-2.10.1.jar reflections-0.9.9-R
+ C1.jar javassist-3.16.1-GA.jar dom4j-1.6.1.jar xml-apis-1.0.b2.jar aspe
+ ctjtools-1.9.22.1.jar shedlock-spring-4.27.0.jar shedlock-core-4.27.0.j
+ ar shedlock-provider-jdbc-template-4.27.0.jar spring-boot-starter-data-
+ jpa-3.3.5.jar spring-boot-starter-aop-3.3.5.jar spring-aop-6.1.14.jar a
+ spectjweaver-1.9.22.1.jar spring-boot-starter-jdbc-3.3.5.jar HikariCP-5
+ .1.0.jar spring-jdbc-6.1.14.jar hibernate-core-6.5.3.Final.jar jakarta.
+ persistence-api-3.1.0.jar jakarta.transaction-api-2.0.1.jar jboss-loggi
+ ng-3.5.3.Final.jar hibernate-commons-annotations-6.0.6.Final.jar jandex
+ -3.1.2.jar byte-buddy-1.14.19.jar jaxb-runtime-4.0.5.jar jaxb-core-4.0.
+ 5.jar angus-activation-2.0.2.jar txw2-4.0.5.jar istack-commons-runtime-
+ 4.1.2.jar jakarta.inject-api-2.0.1.jar antlr4-runtime-4.13.0.jar spring
+ -data-jpa-3.3.5.jar spring-data-commons-3.3.5.jar spring-orm-6.1.14.jar
+  spring-context-6.1.14.jar spring-tx-6.1.14.jar spring-beans-6.1.14.jar
+  spring-aspects-6.1.14.jar spring-boot-starter-web-3.3.5.jar spring-boo
+ t-starter-json-3.3.5.jar jackson-datatype-jdk8-2.17.2.jar jackson-datat
+ ype-jsr310-2.17.2.jar jackson-module-parameter-names-2.17.2.jar spring-
+ boot-starter-tomcat-3.3.5.jar tomcat-embed-core-10.1.31.jar tomcat-embe
+ d-el-10.1.31.jar tomcat-embed-websocket-10.1.31.jar spring-web-6.1.14.j
+ ar micrometer-observation-1.13.6.jar micrometer-commons-1.13.6.jar spri
+ ng-webmvc-6.1.14.jar spring-expression-6.1.14.jar spring-boot-starter-3
+ .3.5.jar spring-boot-3.3.5.jar spring-boot-autoconfigure-3.3.5.jar spri
+ ng-boot-starter-logging-3.3.5.jar logback-classic-1.5.11.jar logback-co
+ re-1.5.11.jar log4j-to-slf4j-2.23.1.jar log4j-api-2.23.1.jar jul-to-slf
+ 4j-2.0.16.jar jakarta.annotation-api-2.1.1.jar spring-core-6.1.14.jar s
+ pring-jcl-6.1.14.jar snakeyaml-2.2.jar commons-lang3-3.14.0.jar jakarta
+ .xml.bind-api-4.0.2.jar jakarta.activation-api-2.1.3.jar hamcrest-2.2.j
+ ar postgresql-42.7.4.jar checker-qual-3.42.0.jar spring-boot-configurat
+ ion-processor-3.3.5.jar lombok-1.18.34.jar expiringmap-0.5.7.jar poi-4.
+ 1.0.jar commons-codec-1.16.1.jar commons-collections4-4.3.jar commons-m
+ ath3-3.6.1.jar poi-ooxml-4.1.0.jar poi-ooxml-schemas-4.1.0.jar xmlbeans
+ -3.1.0.jar commons-compress-1.18.jar curvesapi-1.06.jar javax.mail-1.6.
+ 2.jar activation-1.1.jar springfox-swagger2-2.9.2.jar swagger-annotatio
+ ns-1.5.20.jar swagger-models-1.5.20.jar jackson-annotations-2.17.2.jar 
+ springfox-spi-2.9.2.jar springfox-core-2.9.2.jar springfox-schema-2.9.2
+ .jar springfox-swagger-common-2.9.2.jar springfox-spring-web-2.9.2.jar 
+ guava-20.0.jar classmate-1.7.0.jar slf4j-api-2.0.16.jar spring-plugin-c
+ ore-1.2.0.RELEASE.jar spring-plugin-metadata-1.2.0.RELEASE.jar mapstruc
+ t-1.2.0.Final.jar springfox-swagger-ui-2.9.2.jar springfox-bean-validat
+ ors-2.9.2.jar jjwt-0.9.1.jar jackson-databind-2.17.2.jar jackson-core-2
+ .17.2.jar tika-core-2.4.1.jar commons-io-2.11.0.jar barbecue-1.5-beta1.
+ jar core-3.3.0.jar javase-3.3.0.jar jcommander-1.48.jar jai-imageio-cor
+ e-1.3.1.jar
+Implementation-Title: vendingmachine-service
+Implementation-Version: 0.0.1-SNAPSHOT
+Main-Class: com.pos.test.vendingmachine.VendingmachineApplication
+Created-By: Maven Integration for Eclipse
+
